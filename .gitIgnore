@@ -1,0 +1,54 @@
+# ----------------------
+# Maven / Java
+# ----------------------
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+*.log
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+*.ipr
+*.idea/workspace.xml
+*.idea/tasks.xml
+*.idea/dictionaries
+*.idea/vcs.xml
+
+# ----------------------
+# Spring Boot / Application
+# ----------------------
+spring-boot-devtools.properties
+*.db
+*.h2.db
+*.mv.db
+*.derby
+*.sqlite
+
+# ----------------------
+# Environment / config files
+# ----------------------
+.env
+*.env
+*.properties.local
+*.yml.local
+*.keystore
+*.jks
+
+# ----------------------
+# Test / Reports
+# ----------------------
+surefire-reports/
+failsafe
